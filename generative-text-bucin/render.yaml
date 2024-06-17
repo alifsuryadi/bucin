@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: generative-text-bucin
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: GROQ_API_KEY
+        value: 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
