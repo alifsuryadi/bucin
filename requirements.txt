@@ -2,4 +2,4 @@ flask
 flask-cors
 python-dotenv
 groq
-gunicorn
+waitress
